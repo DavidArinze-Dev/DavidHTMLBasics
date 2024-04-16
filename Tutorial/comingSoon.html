@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>David Coming Soon Site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="shortcut icon" type="image/x-icon" href="/MenuNavigation/Images/Dave.png"/>
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('/MenuNavigation/Images/Rose-Gold-Wallpaper.jpeg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(65, 4, 4, 0.9);
+  background-blend-mode: multiply;
+}
+.w3-jumbo {
+    color: rgb(255,0,0);
+    text-shadow: 5px 5px 5px rgb(245, 234, 234);
+    font-weight: 900;
+}
+.w3-large {
+    color: rgb(255,0,0)
+}
+.emphasizeenter {
+    color: rgb(245, 179, 179);
+}
+.button {
+  border: none;
+  border-radius: 100px;
+  color: white;
+  padding: 8px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight : bold;
+  margin: 4px 110px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rgb(245, 179, 179);
+  color: black;
+  border: 4px solid #d40505;
+}
+
+.button1:hover {
+  background-color: #f0646b;
+  color: white;
+}
+.w3-display-topleft{
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: normal; /* alternate */
+}
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:150px;}
+  75%  { left:0px; top:150px;}
+  100% { left:0px; top:0px;}
+}
+
+</style>
+</head>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <img src="/Images/Dave.png" alt="Logo" width="120" height="120">
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">WELCOME</h1>
+    <hr class="w3-border-white" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">click the <span class="emphasizeenter">"Enter"</span> button below to access site</p>
+    <div><a href="/Tutorial/menu.html" class="button button1">Enter</a></div>
+   
+  </div>
+  <div class="w3-display-bottomleft emphasizeenter w3-padding-large">
+    Designed By <a href="https://www.linkedin.com/in/david-arinze-65a590143/" target="_blank">David</a>
+  </div>
+</div>
+
+</body>
+</html>
